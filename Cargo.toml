@@ -7,7 +7,7 @@ edition = "2021"
 bindgen = { version = "0.68.1", features = ["prettyplease"] }
 block = "0.1.6"
 core-foundation-sys = "0.8.4"
-iokit-sys = { version = "0.4.0", path = "../iokit-sys" }
+iokit-sys = { version = "0.4.0", git = "https://github.com/laptou/iokit-sys.git" }
 libc = "0.2.148"
 mach = "0.3.2"
 objc = "0.2.7"
